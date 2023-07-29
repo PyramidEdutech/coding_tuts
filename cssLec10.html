@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .navigation {
+        display: flex;
+        list-style: none;
+        background-color: rgb(181, 198, 213);
+      }
+      .item {
+        margin: 12px;
+      }
+      section {
+        color: white;
+      }
+      header::before {
+        content: "";
+        background: url("https://th.bing.com/th/id/R.2234a41ca390db7bf7de385266812e1b?rik=6%2bR4rhzRaho%2bUA&riu=http%3a%2f%2fimages2.fanpop.com%2fimage%2fphotos%2f14300000%2fBeautiful-Wallpaper-random-14312356-2560-1600.jpg&ehk=5m%2ffM32BaViYe8wCwbWZEry%2b%2fKQxZl2rha0ON8RfiCc%3d&risl=&pid=ImgRaw&r=0");
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        opacity: 0.8;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- before and after pseudo selector -->
+    <header>
+      <nav class="navbar">
+        <ul class="navigation">
+          <li class="item">home</li>
+          <li class="item">about</li>
+          <li class="item">contact</li>
+          <li class="item">service</li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <h3>Welcome to py edutech</h3>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque nostrum
+        labore possimus perferendis deserunt illo repellendus eligendi numquam,
+        aperiam fugit laboriosam, consectetur ipsa?
+      </p>
+    </section>
+  </body>
+</html>
