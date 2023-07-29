@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      /* global access */
+      :root {
+        --bg-col: rgb(209, 209, 222);
+        --card-bg-col: rgb(58, 205, 127);
+        --color: rgb(205, 161, 161);
+      }
+      .container {
+        display: flex;
+        background-color: var(--bg-col);
+      }
+      .card {
+        padding: 23px 12px;
+        margin: 23px 12px;
+        background-color: var(--card-bg-col);
+        color: var(--color);
+        /* blur radius */
+        box-shadow: 5px 5px 12px rgb(126, 194, 126);
+        /* boxShadow: offset-x offset-y blur-rad spread-rad color */
+      }
+      .card > h2 {
+        text-shadow: 3px 4px white;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- box and text shadow -->
+    <div class="container">
+      <div class="card" id="card-1">
+        <h2>card-1</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quisquam
+          facere libero eum vero qui fugit fuga omnis ullam magnam, quas enim
+          asperiores ratione. Aperiam doloribus a magni omnis hic sed fuga
+          recusandae.
+        </p>
+      </div>
+      <div class="card" id="card-2">
+        <h2>card-2</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quisquam
+          facere libero eum vero qui fugit fuga omnis ullam magnam, quas enim
+          asperiores ratione. Aperiam doloribus a magni omnis hic sed fuga
+          recusandae.
+        </p>
+      </div>
+      <div class="card" id="card-3">
+        <h2>card-3</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quisquam
+          facere libero eum vero qui fugit fuga omnis ullam magnam, quas enim
+          asperiores ratione. Aperiam doloribus a magni omnis hic sed fuga
+          recusandae.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
