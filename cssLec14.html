@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .item {
+        background-color: blue;
+        border: 2px solid black;
+        color: white;
+      }
+      #navbar {
+        grid-area: navbar;
+      }
+      #section {
+        grid-area: section;
+      }
+      #aside {
+        grid-area: aside;
+      }
+      footer {
+        grid-area: footer;
+      }
+      .container {
+        display: grid;
+        grid-gap: 1rem;
+        grid-template-areas:
+          "navbar navbar navbar navbar"
+          "section section section aside"
+          "footer footer footer footer";
+      }
+    </style>
+    <title>GRID</title>
+  </head>
+  <body>
+    <!-- grid-template-area -->
+    <div class="container">
+      <div id="navbar" class="item">navbar</div>
+      <div id="section" class="item">section</div>
+      <div id="aside" class="item">aside</div>
+      <footer class="item">footer</footer>
+    </div>
+  </body>
+</html>

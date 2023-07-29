@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        width: 100%;
+        border: 1px solid brown;
+        background-color: beige;
+      }
+      .items {
+        display: flex;
+        list-style: none;
+        justify-content: space-around;
+      }
+      .item {
+        color: red;
+        font-weight: 600;
+      }
+      .item:hover {
+        color: blueviolet;
+        background-color: aliceblue;
+        cursor: pointer;
+        font-weight: 100;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar using flex -->
+    <div class="container">
+      <ul class="items">
+        <li class="item" id="item-1">Home</li>
+        <li class="item" id="item-2">About</li>
+        <li class="item" id="item-3">Services</li>
+        <li class="item" id="item-4">Contact</li>
+        <li class="item" id="item-5">FAQ</li>
+      </ul>
+    </div>
+  </body>
+</html>

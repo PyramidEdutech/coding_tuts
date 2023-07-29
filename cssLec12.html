@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .container {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .box {
+        height: 100px;
+        width: 100px;
+        background-color: blueviolet;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all 1s;
+      }
+      .box:hover {
+        /* transform: skew(45deg); */
+        /* transform: scale(2); */
+        /* transform: translateX(120px); */
+        /* transform: translateY(50px); */
+        transform: translate(120px, 250px);
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- transition and transform in css -->
+    <div class="container">
+      <div class="box">box</div>
+    </div>
+  </body>
+</html>
